@@ -21,11 +21,10 @@ struct FeaturedItemView: View {
     }
 }
 
-struct FeaturedItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        FeaturedItemView(player: players[0])
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    FeaturedItemView(player: players[0])
+        .previewLayout(.sizeThatFits)
+        .padding()
+        .background(colorBackground)
 }

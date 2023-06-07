@@ -21,11 +21,9 @@ struct BrandGridView: View {
     }
 }
 
-struct BrandGridView_Previews: PreviewProvider {
-    static var previews: some View {
-        BrandGridView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .background(colorBackground)
-    }
+#Preview {
+    BrandGridView()
+        .previewLayout(.sizeThatFits)
+        .padding()
+        .background(colorBackground)
 }

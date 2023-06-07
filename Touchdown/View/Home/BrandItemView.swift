@@ -26,10 +26,9 @@ struct BrandItemView: View {
     }
 }
 
-struct BrandItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        BrandItemView(brand: brands[0])
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
+// MARK: - preview
+#Preview {
+    BrandItemView(brand: brands[0])
+        .previewLayout(.sizeThatFits)
+        .padding()
 }

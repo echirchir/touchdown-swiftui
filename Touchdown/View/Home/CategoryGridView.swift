@@ -30,11 +30,10 @@ struct CategoryGridView: View {
     }
 }
 
-struct CategoryGridView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryGridView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    CategoryGridView()
+        .previewLayout(.sizeThatFits)
+        .padding()
+        .background(colorBackground)
 }

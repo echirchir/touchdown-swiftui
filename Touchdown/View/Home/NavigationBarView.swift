@@ -54,10 +54,8 @@ struct NavigationBarView: View {
 }
 
 // MARK: - preview
-struct NavigationBarView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationBarView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
+#Preview {
+    NavigationBarView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }

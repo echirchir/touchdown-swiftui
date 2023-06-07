@@ -27,11 +27,10 @@ struct TitleView: View {
     }
 }
 
-struct TitleView_Previews: PreviewProvider {
-    static var previews: some View {
-        TitleView(title: "Helmet")
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    TitleView(title: "Helmet")
+        .previewLayout(.sizeThatFits)
+        .padding()
+        .background(colorBackground)
 }

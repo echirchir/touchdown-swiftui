@@ -38,11 +38,10 @@ struct ProductItemView: View {
     }
 }
 
-struct ProductItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductItemView(product: products[0])
-            .previewLayout(.fixed(width: 200, height: 300))
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    ProductItemView(product: products[0])
+        .previewLayout(.fixed(width: 200, height: 300))
+        .padding()
+        .background(colorBackground)
 }

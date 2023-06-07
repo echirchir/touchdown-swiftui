@@ -68,10 +68,8 @@ struct RatingsSizesDetailView: View {
 }
 
 // MARK: - preview
-struct RatingsSizesDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        RatingsSizesDetailView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
+#Preview {
+    RatingsSizesDetailView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }

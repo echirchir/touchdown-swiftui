@@ -41,11 +41,10 @@ struct CategoryItemView: View {
     }
 }
 
-struct CategoryItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryItemView(category: categories[0])
-            .previewLayout(.sizeThatFits)
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    CategoryItemView(category: categories[0])
+        .previewLayout(.sizeThatFits)
+        .padding()
+        .background(colorBackground)
 }

@@ -28,10 +28,8 @@ struct LogoView: View {
     }
 }
 
-struct LogoView_Previews: PreviewProvider {
-    static var previews: some View {
-        LogoView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
+#Preview {
+    LogoView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }

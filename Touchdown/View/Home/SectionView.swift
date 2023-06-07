@@ -27,11 +27,10 @@ struct SectionView: View {
     }
 }
 
-struct SectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SectionView(rotateClockwise: true)
-            .previewLayout(.fixed(width: 120, height: 240))
-            .padding()
-            .background(colorBackground)
-    }
+// MARK: - preview
+#Preview {
+    SectionView(rotateClockwise: true)
+        .previewLayout(.fixed(width: 120, height: 240))
+        .padding()
+        .background(colorBackground)
 }

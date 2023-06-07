@@ -53,10 +53,8 @@ struct QuantityFavoriteDetailView: View {
     }
 }
 
-struct QuantityFavoriteDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        QuantityFavoriteDetailView()
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
+#Preview {
+    QuantityFavoriteDetailView()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
